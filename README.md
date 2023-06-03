@@ -22,13 +22,15 @@ Create a VPC
 * a route table
 
 Create an EC2 - Public subnet
-    - full access - group 1
-    - deny access - group 2
+
+* full access - group 1
+* deny access - group 2
 
 Create another EC2 - Private subnet
-    - full access to group 2
-    - deny access to group 1
+
+* full access to group 2
+* deny access to group 1
 
 Strictly follow module approach and also configure the backend to an S3 bucket.
 
---
+---
